@@ -1,0 +1,81 @@
+/* Base Styles */
+
+body {
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* First paragraph */
+p:first-of-type {S
+    color: brown;
+    background-color: lightblue;
+}
+
+/* Second paragraph */
+p:last-of-type {
+    color: brown ;
+    background-color: pink;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+}
