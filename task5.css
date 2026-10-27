@@ -1,0 +1,33 @@
+
+#output body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #e8f5e9; /* very light green */
+}
+
+h1 {
+    color: #1b5e20;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+    margin-top: 20px;
+}
+
+..card {
+    background-color: #e8f5e9;   /* very light green */
+    border-left: 6px solid #2e7d32; /* dark green line */
+    margin: 12px auto;
+    padding: 15px;
+    width: 65%;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    color: #1b5e20; /* dark green text */
+}
