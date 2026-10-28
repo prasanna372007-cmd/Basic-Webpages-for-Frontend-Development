@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nature Form</title>
+    <link rel="stylesheet" href="task6.css">
+</head>
+
+<body>
+
+    <h1>🌿 Nature Feedback Form</h1>
+
+    <form id="natureForm" onsubmit="return validateForm()">
+
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label>Message:</label>
+        <textarea id="message" placeholder="Write your message"></textarea>
+
+        <button type="submit">Submit</button>
+
+        <p id="error"></p>
+
+    </form>
+
+    <script src="task6.js"></script>
+
+</body>
+</html>

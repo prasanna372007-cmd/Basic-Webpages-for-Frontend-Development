@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #e8f5e9;
+}
+
+form {
+    background: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}
